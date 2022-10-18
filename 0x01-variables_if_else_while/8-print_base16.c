@@ -16,7 +16,7 @@ int main(void)
 		putchar((number % 10) + '0');
 	}
 
-	for (letter = 'a'; letter <= 'z', letter++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		putchar(letter);
 	}
